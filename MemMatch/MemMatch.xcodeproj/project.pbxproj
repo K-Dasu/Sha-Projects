@@ -15,6 +15,7 @@
 		3B4463F21B544DDB0016058B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B4463F01B544DDB0016058B /* LaunchScreen.xib */; };
 		3B4463FE1B544DDB0016058B /* MemMatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4463FD1B544DDB0016058B /* MemMatchTests.m */; };
 		3B4464091B544F9E0016058B /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4464081B544F9E0016058B /* Card.m */; };
+		3B44640F1B545E390016058B /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B44640E1B545E390016058B /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		3B4463FD1B544DDB0016058B /* MemMatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemMatchTests.m; sourceTree = "<group>"; };
 		3B4464071B544F9E0016058B /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
 		3B4464081B544F9E0016058B /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		3B44640D1B545E390016058B /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		3B44640E1B545E390016058B /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,8 @@
 			children = (
 				3B4464071B544F9E0016058B /* Card.h */,
 				3B4464081B544F9E0016058B /* Card.m */,
+				3B44640D1B545E390016058B /* Deck.h */,
+				3B44640E1B545E390016058B /* Deck.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B44640F1B545E390016058B /* Deck.m in Sources */,
 				3B4463EA1B544DDB0016058B /* ViewController.m in Sources */,
 				3B4463E71B544DDB0016058B /* AppDelegate.m in Sources */,
 				3B4463E41B544DDB0016058B /* main.m in Sources */,
@@ -433,6 +439,7 @@
 				3B4464031B544DDB0016058B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B4464041B544DDB0016058B /* Build configuration list for PBXNativeTarget "MemMatchTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +448,7 @@
 				3B4464061B544DDB0016058B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
