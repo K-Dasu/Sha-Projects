@@ -14,6 +14,7 @@
 		3B4463EF1B544DDB0016058B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4463EE1B544DDB0016058B /* Images.xcassets */; };
 		3B4463F21B544DDB0016058B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B4463F01B544DDB0016058B /* LaunchScreen.xib */; };
 		3B4463FE1B544DDB0016058B /* MemMatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4463FD1B544DDB0016058B /* MemMatchTests.m */; };
+		3B4464091B544F9E0016058B /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4464081B544F9E0016058B /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3B4463F71B544DDB0016058B /* MemMatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemMatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4463FC1B544DDB0016058B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B4463FD1B544DDB0016058B /* MemMatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemMatchTests.m; sourceTree = "<group>"; };
+		3B4464071B544F9E0016058B /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		3B4464081B544F9E0016058B /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 				3B4463E61B544DDB0016058B /* AppDelegate.m */,
 				3B4463E81B544DDB0016058B /* ViewController.h */,
 				3B4463E91B544DDB0016058B /* ViewController.m */,
+				3B44640A1B544FA30016058B /* Model */,
 				3B4463EB1B544DDB0016058B /* Main.storyboard */,
 				3B4463EE1B544DDB0016058B /* Images.xcassets */,
 				3B4463F01B544DDB0016058B /* LaunchScreen.xib */,
@@ -117,6 +121,15 @@
 				3B4463FC1B544DDB0016058B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B44640A1B544FA30016058B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B4464071B544F9E0016058B /* Card.h */,
+				3B4464081B544F9E0016058B /* Card.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +236,7 @@
 				3B4463EA1B544DDB0016058B /* ViewController.m in Sources */,
 				3B4463E71B544DDB0016058B /* AppDelegate.m in Sources */,
 				3B4463E41B544DDB0016058B /* main.m in Sources */,
+				3B4464091B544F9E0016058B /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
