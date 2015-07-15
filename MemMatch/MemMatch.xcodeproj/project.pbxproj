@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1064211B561CF1005FA834 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1064201B561CF1005FA834 /* CardMatchingGame.m */; };
 		3B4463E41B544DDB0016058B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4463E31B544DDB0016058B /* main.m */; };
 		3B4463E71B544DDB0016058B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4463E61B544DDB0016058B /* AppDelegate.m */; };
 		3B4463EA1B544DDB0016058B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4463E91B544DDB0016058B /* ViewController.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B10641F1B561CF1005FA834 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		3B1064201B561CF1005FA834 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
 		3B4463DE1B544DDB0016058B /* MemMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4463E21B544DDB0016058B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B4463E31B544DDB0016058B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -139,6 +142,8 @@
 				3B44640E1B545E390016058B /* Deck.m */,
 				3B4464101B5468940016058B /* PlayingCard.h */,
 				3B4464111B5468940016058B /* PlayingCard.m */,
+				3B10641F1B561CF1005FA834 /* CardMatchingGame.h */,
+				3B1064201B561CF1005FA834 /* CardMatchingGame.m */,
 				3B4464131B548B660016058B /* PlayingCardDeck.h */,
 				3B4464141B548B660016058B /* PlayingCardDeck.m */,
 			);
@@ -260,6 +265,7 @@
 				3B44640F1B545E390016058B /* Deck.m in Sources */,
 				3B4463EA1B544DDB0016058B /* ViewController.m in Sources */,
 				3B4463E71B544DDB0016058B /* AppDelegate.m in Sources */,
+				3B1064211B561CF1005FA834 /* CardMatchingGame.m in Sources */,
 				3B4464151B548B660016058B /* PlayingCardDeck.m in Sources */,
 				3B4463E41B544DDB0016058B /* main.m in Sources */,
 				3B4464091B544F9E0016058B /* Card.m in Sources */,
