@@ -16,6 +16,7 @@
                        usingDeck:(Deck *)deck;
 -(void)chooseCardAtIndex:(NSUInteger)index;
 -(Card *)cardAtIndex:(NSUInteger)index;
+-(void)reDeal;
 
 @property (nonatomic, readonly) NSInteger score;
 

@@ -7,6 +7,7 @@
 //
 
 #import "CardMatchingGame.h"
+#import "PlayingCardDeck.h"
 
 @interface CardMatchingGame()
 @property (nonatomic, readwrite) NSInteger score;
@@ -35,6 +36,15 @@
     }
     
     return self;
+}
+
+-(void)reDeal{
+    Deck * newDeck = [[PlayingCardDeck alloc]init];
+    for(int i = 0; i < [self.cards count]; i++){
+        Card * card = [newDeck drawRandomCard];
+        [self.cards replaceObjectAtIndex:i withObject:card];
+    }
+    self.score = 0;
 }
 
 static const int MISMATCH_PENALTY = 2;

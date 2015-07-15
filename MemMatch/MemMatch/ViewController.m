@@ -35,6 +35,16 @@
     [self updateUI];
 }
 
+- (IBAction)reDealButton {
+    for(UIButton * cardButton in self.cardButtons){
+        [cardButton setBackgroundImage:[UIImage imageNamed:@"cardBack"] forState:UIControlStateNormal];
+        [cardButton setTitle:@"" forState:UIControlStateNormal];
+        cardButton.enabled = YES;
+    }
+    self.scoreLabel.text = [NSString stringWithFormat:@"Score: %d",(int)self.game.score];
+    [self.game reDeal];
+}
+
 -(void)updateUI{
     for(UIButton * cardButton in self.cardButtons){
         NSUInteger cardButtonIndex = [self.cardButtons indexOfObject:cardButton];
