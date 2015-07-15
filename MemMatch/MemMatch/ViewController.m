@@ -41,7 +41,7 @@
         [cardButton setTitle:@"" forState:UIControlStateNormal];
         cardButton.enabled = YES;
     }
-    self.scoreLabel.text = [NSString stringWithFormat:@"Score: %d",(int)self.game.score];
+    self.scoreLabel.text = [NSString stringWithFormat:@"Score: 0"];
     [self.game reDeal];
 }
 

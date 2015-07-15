@@ -347,7 +347,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJW-G0-Mwt">
-                                <rect key="frame" x="20" y="526" width="64" height="30"/>
+                                <rect key="frame" x="20" y="526" width="99" height="30"/>
                                 <color key="backgroundColor" red="0.38908108956836401" green="0.7702217487373737" blue="0.0079404303993543396" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
