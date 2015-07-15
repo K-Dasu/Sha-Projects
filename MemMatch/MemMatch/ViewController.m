@@ -7,21 +7,26 @@
 //
 
 #import "ViewController.h"
+#import "PlayingCardDeck.h"
 
 @interface ViewController ()
-
+@property (strong, nonatomic) PlayingCardDeck * deck;
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)touchCardButton:(UIButton *)sender {
+    
+    if([sender.currentTitle length]){
+        [sender setBackgroundImage:[UIImage imageNamed:@"cardBack"]
+                      forState:UIControlStateNormal];
+        [sender setTitle:@"" forState:UIControlStateNormal];
+    }else{
+        [sender setBackgroundImage:[UIImage imageNamed:@"cardFront"]
+                          forState:UIControlStateNormal];
+        [sender setTitle:@"A♣️" forState:UIControlStateNormal];
+    }
 }
 
 @end
