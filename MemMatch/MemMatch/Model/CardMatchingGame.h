@@ -14,7 +14,7 @@
 
 -(instancetype)initWithCardCount:(NSUInteger)count
                        usingDeck:(Deck *)deck;
--(void)chooseCardAtIndex:(NSUInteger)index;
+-(void)chooseCardAtIndex:(NSUInteger)index numberOfCards:(NSUInteger)maxCards;
 -(Card *)cardAtIndex:(NSUInteger)index;
 -(void)reDeal;
 

@@ -31,7 +31,7 @@
 
 - (IBAction)touchCardButton:(UIButton *)sender {
     NSUInteger chooseButtonIndex = [self.cardButtons indexOfObject:sender];
-    [self.game chooseCardAtIndex:chooseButtonIndex];
+    [self.game pickACardAtIndex:chooseButtonIndex numberOfCards:3]; //Working (insert the switch value here)
     [self updateUI];
 }
 
