@@ -347,7 +347,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJW-G0-Mwt">
-                                <rect key="frame" x="20" y="526" width="99" height="30"/>
+                                <rect key="frame" x="16" y="526" width="99" height="30"/>
                                 <color key="backgroundColor" red="0.38908108956836401" green="0.7702217487373737" blue="0.0079404303993543396" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -365,11 +365,23 @@
                                     <action selector="reDealButton" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zuv-fd-h0l"/>
                                 </connections>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="n5P-JG-yw7">
+                                <rect key="frame" x="118" y="526" width="123" height="29"/>
+                                <segments>
+                                    <segment title="Two"/>
+                                    <segment title="Three"/>
+                                </segments>
+                                <color key="tintColor" red="0.50196081399917603" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="segmentedControlIndexChanged" destination="vXZ-lx-hvc" eventType="valueChanged" id="LEN-cu-8CB"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="scoreLabel" destination="gJW-G0-Mwt" id="5aI-AZ-a0P"/>
+                        <outlet property="segmentedControl" destination="n5P-JG-yw7" id="hj2-hK-lQR"/>
                         <outletCollection property="cardButtons" destination="wG1-hP-Sfi" id="fiC-zW-2BX"/>
                         <outletCollection property="cardButtons" destination="yHa-1W-9xc" id="TCv-fs-QzQ"/>
                         <outletCollection property="cardButtons" destination="0n3-ce-tzF" id="oKC-OO-uqe"/>
