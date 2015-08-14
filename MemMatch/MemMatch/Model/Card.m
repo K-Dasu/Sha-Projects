@@ -16,7 +16,6 @@
 
 -(NSUInteger)match:(NSArray *)otherCards{
     int score = 0;
-    
     for (Card * card in otherCards){
         if([card.contents containsString:self.contents]){
             score = 1;
